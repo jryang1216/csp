@@ -1,0 +1,711 @@
+2023-04-17T14:53:18.205-0700 INFO Starting DemoApplication using Java 17.0.6 with PID 62498 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-04-17T14:53:18.213-0700 DEBUG Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-04-17T14:53:18.219-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-04-17T14:53:20.514-0700 INFO Started DemoApplication in 2.87 seconds (process running for 3.753)
+2023-04-17T14:53:20.519-0700 DEBUG ======  DemoApplication, this is a debug level logger info from Jingrong
+2023-04-17T14:53:20.520-0700 INFO ======  DemoApplication, this is a info level logger info from Jingrong
+2023-04-17T14:53:20.520-0700 WARN ======  DemoApplication, this is a warn level logger info from Jingrong
+2023-04-17T14:53:20.520-0700 ERROR ======  DemoApplication, this is a error level logger info from Jingrong
+2023-04-17T15:08:33.676-0700 INFO Connecting to database...
+2023-04-17T15:08:33.686-0700 ERROR SQLException is caught when trying to create DB Connection object, error = No suitable driver found for jdbc:postgresql://localhost:5430/csp
+2023-04-17T15:08:33.687-0700 DEBUG Creating statement...
+2023-04-17T15:21:46.010-0700 INFO Connecting to database...
+2023-04-17T15:21:46.020-0700 ERROR SQLException is caught when trying to create DB Connection object, error = No suitable driver found for jdbc:postgresql://localhost:5430/csp
+2023-04-17T15:21:46.021-0700 DEBUG Creating statement...
+2023-04-17T15:52:12.149-0700 INFO Connecting to database...
+2023-04-17T15:52:12.162-0700 ERROR SQLException is caught when trying to create DB Connection object, error = No suitable driver found for jdbc:postgresql://localhost:5430/
+2023-04-17T15:52:12.162-0700 DEBUG Creating statement...
+2023-04-17T15:53:33.227-0700 INFO Connecting to database...
+2023-04-17T15:53:33.236-0700 ERROR SQLException is caught when trying to create DB Connection object, error = No suitable driver found for jdbc:postgresql://localhost:5430/
+2023-04-17T15:53:33.237-0700 DEBUG Creating statement...
+2023-04-17T15:54:36.704-0700 INFO Connecting to database...
+2023-04-17T15:54:36.724-0700 ERROR SQLException is caught when trying to create DB Connection object, error = No suitable driver found for jdbc:postgresql://localhost:5430/csp
+2023-04-17T15:54:36.724-0700 DEBUG Creating statement...
+2023-04-17T16:02:32.698-0700 INFO Connecting to database...
+2023-04-17T16:02:42.853-0700 ERROR SQLException is caught when trying to create DB Connection object, error = The connection attempt failed.
+2023-04-17T16:02:42.854-0700 DEBUG Creating statement...
+2023-04-17T16:11:47.711-0700 INFO Connecting to database...
+2023-04-17T16:11:48.027-0700 DEBUG Creating statement...
+2023-04-17T16:14:14.127-0700 INFO Connecting to database...
+2023-04-17T16:14:14.438-0700 DEBUG Creating statement...
+2023-04-17T16:14:29.146-0700 INFO Connecting to database...
+2023-04-17T16:14:29.473-0700 DEBUG Creating statement...
+2023-04-24T22:33:29.957-0700 ERROR Exception while initializing hibernate util..., error=Repeated column in mapping for entity: com.ascending.demo.api.entity.Users column: supplier_id (should be mapped with insert="false" update="false")
+2023-04-24T22:43:28.943-0700 ERROR Exception while initializing hibernate util..., error=Repeated column in mapping for entity: com.ascending.demo.api.entity.Users column: supplier_id (should be mapped with insert="false" update="false")
+2023-04-24T22:46:10.445-0700 ERROR Exception while initializing hibernate util..., error=Foreign key (FKt454j0yivnnn0mm9qab6bv0c0:transactions [transaction_id])) must have same number of columns as the referenced primary key (transactions [supplier_id,transaction_id])
+2023-04-24T22:54:10.798-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Users.supplier_id in com.ascending.demo.api.entity.Suppliers.usersSet
+2023-04-24T22:57:05.063-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Users.supplier_id in com.ascending.demo.api.entity.Suppliers.usersSet
+2023-04-24T23:04:20.628-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Users.supplier_id in com.ascending.demo.api.entity.Suppliers.usersSet
+2023-04-25T00:07:35.252-0700 ERROR Exception while initializing hibernate util..., error=No identifier specified for entity: com.ascending.demo.api.entity.Supplier_product
+2023-04-25T00:10:31.803-0700 ERROR Exception while initializing hibernate util..., error=No identifier specified for entity: com.ascending.demo.api.entity.Supplier_product
+2023-04-25T00:16:09.042-0700 ERROR Exception while initializing hibernate util..., error=No identifier specified for entity: com.ascending.demo.api.entity.Supplier_product
+2023-04-25T00:18:42.589-0700 ERROR Exception while initializing hibernate util..., error=No identifier specified for entity: com.ascending.demo.api.entity.Supplier_product
+2023-04-25T00:19:40.861-0700 ERROR Exception while initializing hibernate util..., error=No identifier specified for entity: com.ascending.demo.api.entity.Supplier_product
+2023-04-25T00:25:33.467-0700 ERROR Exception while initializing hibernate util..., error=Repeated column in mapping for entity: com.ascending.demo.api.entity.Users column: supplier_id (should be mapped with insert="false" update="false")
+2023-04-25T00:30:14.561-0700 ERROR Exception while initializing hibernate util..., error=Repeated column in mapping for entity: com.ascending.demo.api.entity.Users column: supplier_id (should be mapped with insert="false" update="false")
+2023-04-25T00:34:41.814-0700 ERROR Exception while initializing hibernate util..., error=Repeated column in mapping for entity: com.ascending.demo.api.entity.Users column: id (should be mapped with insert="false" update="false")
+2023-04-25T00:38:58.150-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: wrong column type encountered in column [zip] in table [suppliers]; found [varchar (Types#VARCHAR)], but expecting [int8 (Types#BIGINT)]
+2023-04-25T00:40:11.408-0700 INFO Success generate sessionFactory =org.hibernate.internal.SessionFactoryImpl@1859e2a4
+2023-04-25T00:40:11.410-0700 INFO Success generate sessionFactory, hashcode=408543908
+2023-04-25T00:40:11.441-0700 INFO The end
+2023-04-26T09:54:22.237-0700 ERROR fail to insert a supplier, error = org.hibernate.exception.ConstraintViolationException: could not execute statement
+2023-04-26T10:01:12.727-0700 ERROR fail to insert a supplier, error = org.hibernate.exception.ConstraintViolationException: could not execute statement
+2023-04-26T10:07:42.983-0700 ERROR fail to insert a supplier, error = org.hibernate.exception.ConstraintViolationException: could not execute statement
+2023-04-26T10:14:39.129-0700 ERROR Exception while initializing hibernate util..., error=Repeated column in mapping for entity: com.ascending.demo.api.entity.Users column: supplier_id (should be mapped with insert="false" update="false")
+2023-04-26T10:18:39.935-0700 INFO Success generate sessionFactory =org.hibernate.internal.SessionFactoryImpl@1859e2a4
+2023-04-26T10:18:39.937-0700 INFO Success generate sessionFactory, hashcode=408543908
+2023-04-26T10:18:39.968-0700 INFO The end
+2023-04-26T10:19:57.044-0700 ERROR fail to insert a supplier, error = org.hibernate.exception.ConstraintViolationException: could not execute statement
+2023-04-26T13:47:23.995-0700 ERROR fail to insert a supplier, error = org.hibernate.exception.ConstraintViolationException: could not execute statement
+2023-04-26T13:55:01.246-0700 ERROR Exception while initializing hibernate util..., error=Repeated column in mapping for entity: com.ascending.demo.api.entity.Users column: supplier_id (should be mapped with insert="false" update="false")
+2023-04-26T14:01:50.792-0700 ERROR Exception while initializing hibernate util..., error=Repeated column in mapping for entity: com.ascending.demo.api.entity.Users column: supplier_id (should be mapped with insert="false" update="false")
+2023-04-26T14:02:24.876-0700 INFO Success generate sessionFactory =org.hibernate.internal.SessionFactoryImpl@1859e2a4
+2023-04-26T14:02:24.878-0700 INFO Success generate sessionFactory, hashcode=408543908
+2023-04-26T14:02:24.909-0700 INFO The end
+2023-04-26T18:06:45.544-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Users.suppliers in com.ascending.demo.api.entity.Suppliers.usersSet
+2023-04-26T18:08:02.654-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Users.suppliers in com.ascending.demo.api.entity.Suppliers.usersSet
+2023-04-26T18:09:15.290-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Users.suppliers in com.ascending.demo.api.entity.Suppliers.usersSet
+2023-04-26T18:16:12.147-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Users.suppliers in com.ascending.demo.api.entity.Suppliers.usersSet
+2023-04-26T18:30:08.950-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Users.suppliers in com.ascending.demo.api.entity.Suppliers.usersSet
+2023-04-26T18:52:35.233-0700 ERROR Exception while initializing hibernate util..., error=mappedBy reference an unknown target entity property: com.ascending.demo.api.entity.Suppliers.productSet in com.ascending.demo.api.entity.Product.suppliersSet
+2023-05-03T11:54:50.844-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 81373 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T11:54:50.850-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T11:54:50.854-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T11:57:54.844-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 81608 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T11:57:54.845-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T11:57:54.848-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T12:02:09.158-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 81995 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T12:02:09.160-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T12:02:09.162-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T12:10:05.139-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 82454 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T12:10:05.140-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T12:10:05.142-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T12:10:34.882-0700 INFO Started SuppliersDaoSpringDataJPATest in 35.122 seconds (JVM running for 36.782)
+2023-05-03T12:11:01.826-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 82521 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T12:11:01.828-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T12:11:01.830-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T12:11:07.637-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.224 seconds (JVM running for 12.86)
+2023-05-03T12:14:07.150-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 82675 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T12:14:07.151-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T12:14:07.153-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T12:14:12.983-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.25 seconds (JVM running for 12.762)
+2023-05-03T12:16:16.284-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 82791 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T12:16:16.285-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T12:16:16.286-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T12:16:22.562-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.766 seconds (JVM running for 13.375)
+2023-05-03T12:16:43.252-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 82815 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T12:16:43.254-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T12:16:43.257-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T12:16:49.326-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.62 seconds (JVM running for 14.524)
+2023-05-03T14:57:11.290-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 84806 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T14:57:11.292-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T14:57:11.293-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T14:57:16.883-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.03 seconds (JVM running for 12.683)
+2023-05-03T15:03:12.427-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 85111 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T15:03:12.428-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T15:03:12.468-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T15:03:18.094-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.147 seconds (JVM running for 12.939)
+2023-05-03T15:04:15.321-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 85170 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T15:04:15.324-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T15:04:15.325-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T15:04:20.866-0700 INFO Started SuppliersDaoSpringDataJPATest in 10.968 seconds (JVM running for 12.525)
+2023-05-03T15:09:37.652-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 85443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-03T15:09:37.681-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-03T15:09:37.687-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-03T15:09:43.962-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.726 seconds (JVM running for 13.348)
+2023-05-05T22:30:15.181-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-05T22:32:10.922-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-05T22:34:36.788-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 45052 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-05T22:34:36.790-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-05T22:34:36.795-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-05T22:34:42.565-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.252 seconds (JVM running for 12.937)
+2023-05-06T11:13:30.293-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-06T11:17:32.765-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-06T11:24:18.222-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 52768 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-06T11:24:18.226-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-06T11:24:18.230-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-06T11:24:24.323-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.591 seconds (JVM running for 13.382)
+2023-05-06T11:28:10.446-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-06T11:36:09.127-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-06T11:36:11.416-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-06T11:36:38.662-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-06T11:37:52.704-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [department] in table [department]
+2023-05-06T11:42:57.646-0700 INFO Success generate sessionFactory =org.hibernate.internal.SessionFactoryImpl@2dc3271b
+2023-05-06T11:42:57.648-0700 INFO Success generate sessionFactory, hashcode=767764251
+2023-05-06T11:42:57.679-0700 INFO The end
+2023-05-06T11:43:27.568-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 53853 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-06T11:43:27.568-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-06T11:43:27.569-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-06T11:43:33.266-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.115 seconds (JVM running for 12.783)
+2023-05-06T11:46:04.455-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 54012 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-06T11:46:04.484-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-06T11:46:04.491-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-06T11:46:10.205-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.178 seconds (JVM running for 12.795)
+2023-05-06T11:49:10.759-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 54175 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-06T11:49:10.761-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-06T11:49:10.802-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-06T11:49:16.703-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.399 seconds (JVM running for 13.451)
+2023-05-06T11:56:03.840-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 54538 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-06T11:56:03.840-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-06T11:56:03.841-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-06T11:56:09.756-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.352 seconds (JVM running for 13.156)
+2023-05-06T11:59:18.108-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 54769 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-06T11:59:18.136-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-06T11:59:18.142-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-06T11:59:23.905-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.215 seconds (JVM running for 12.915)
+2023-05-06T12:01:26.335-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 54917 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-06T12:01:26.336-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-06T12:01:26.338-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-06T12:01:32.083-0700 INFO Started SuppliersDaoSpringDataJPATest in 11.151 seconds (JVM running for 12.8)
+2023-05-10T18:14:11.909-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 50224 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T18:14:11.911-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T18:14:11.913-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T18:17:05.089-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 50373 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T18:17:05.092-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T18:17:05.093-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T18:18:51.603-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 50470 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T18:18:51.605-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T18:18:51.606-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T18:20:31.649-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 52213 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T18:20:31.651-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T18:20:31.656-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T18:20:39.523-0700 INFO Started SuppliersTest in 13.421 seconds (JVM running for 15.258)
+2023-05-10T18:46:28.457-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 53647 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T18:46:28.458-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T18:46:28.462-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T18:46:34.588-0700 INFO Started SuppliersTest in 11.647 seconds (JVM running for 13.559)
+2023-05-10T18:46:35.011-0700 DEBUG  === within method SuppliersServiceImpl.deleteById(...), majorId = 0, deleteResult = false
+2023-05-10T19:07:25.450-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 54809 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T19:07:25.452-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T19:07:25.453-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T19:07:31.273-0700 INFO Started SuppliersTest in 11.219 seconds (JVM running for 12.928)
+2023-05-10T19:11:38.185-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 55036 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T19:11:38.187-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T19:11:38.189-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T19:11:43.917-0700 INFO Started SuppliersTest in 11.198 seconds (JVM running for 12.855)
+2023-05-10T19:14:35.353-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 55200 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T19:14:35.356-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T19:14:35.358-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T19:14:41.783-0700 INFO Started SuppliersTest in 11.906 seconds (JVM running for 13.596)
+2023-05-10T19:22:45.487-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 55646 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T19:22:45.488-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T19:22:45.492-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T19:22:51.315-0700 INFO Started SuppliersTest in 11.314 seconds (JVM running for 13.428)
+2023-05-10T19:31:19.961-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 56168 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T19:31:19.963-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T19:31:19.964-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T19:31:25.958-0700 INFO Started SuppliersTest in 11.457 seconds (JVM running for 13.151)
+2023-05-10T19:31:59.853-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 56206 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-10T19:31:59.854-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-10T19:31:59.857-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-10T19:32:05.709-0700 INFO Started SuppliersTest in 11.345 seconds (JVM running for 12.906)
+2023-05-13T12:28:24.176-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 28779 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T12:28:24.179-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T12:28:24.179-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T12:30:07.134-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 28882 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T12:30:07.137-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T12:30:07.138-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T12:32:53.883-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 29054 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T12:32:53.886-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T12:32:53.888-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T12:43:34.266-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 29681 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T12:43:34.270-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T12:43:34.272-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T12:48:18.381-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 29942 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T12:48:18.383-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T12:48:18.384-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:07:19.233-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 31870 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:07:19.235-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:07:19.236-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:08:07.743-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 31921 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:08:07.745-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:08:07.747-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:11:02.107-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 33515 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:11:02.109-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:11:02.110-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:11:55.849-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 33573 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:11:55.852-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:11:55.853-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:12:01.886-0700 INFO Started DemoApplication in 11.657 seconds (JVM running for 12.76)
+2023-05-13T13:13:25.815-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 33653 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:13:25.818-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:13:25.819-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:13:33.006-0700 INFO Started DemoApplication in 13.071 seconds (JVM running for 14.387)
+2023-05-13T13:25:59.504-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 34324 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:25:59.506-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:25:59.507-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:26:05.229-0700 INFO Started DemoApplication in 11.378 seconds (JVM running for 12.465)
+2023-05-13T13:41:17.785-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 35135 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:41:17.787-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:41:17.788-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:41:23.137-0700 INFO Started DemoApplication in 10.972 seconds (JVM running for 12.041)
+2023-05-13T13:51:47.235-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 35735 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:51:47.237-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:51:47.239-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:51:52.503-0700 INFO Started DemoApplication in 10.855 seconds (JVM running for 11.688)
+2023-05-13T13:57:41.896-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 36038 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T13:57:41.898-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T13:57:41.899-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T13:57:47.037-0700 INFO Started DemoApplication in 10.692 seconds (JVM running for 11.504)
+2023-05-13T14:01:31.492-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 36241 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T14:01:31.495-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T14:01:31.496-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T14:01:37.579-0700 INFO Started DemoApplication in 11.675 seconds (JVM running for 12.475)
+2023-05-13T14:05:14.994-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-MacBook-Air.local with PID 36431 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-13T14:05:14.996-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-13T14:05:14.996-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-13T14:05:23.056-0700 INFO Started DemoApplication in 13.639 seconds (JVM running for 14.467)
+2023-05-23T13:52:08.144-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 54495 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T13:52:08.145-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T13:52:08.146-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T13:52:14.216-0700 INFO Started SuppliersControllerTest in 6.542 seconds (JVM running for 8.354)
+2023-05-23T13:55:09.315-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 54656 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T13:55:09.316-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T13:55:09.317-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T13:55:17.105-0700 INFO Started SuppliersControllerTest in 8.91 seconds (JVM running for 11.429)
+2023-05-23T14:01:40.787-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 55005 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T14:01:40.788-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T14:01:40.788-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T14:01:46.915-0700 INFO Started SuppliersControllerTest in 6.554 seconds (JVM running for 9.14)
+2023-05-23T14:04:31.636-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 55157 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T14:04:31.636-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T14:04:31.637-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T14:04:38.046-0700 INFO Started SuppliersControllerTest in 6.771 seconds (JVM running for 9.093)
+2023-05-23T14:32:58.991-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 61837 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T14:32:58.992-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T14:32:58.993-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T14:33:05.191-0700 INFO Started SuppliersControllerTest in 6.609 seconds (JVM running for 9.278)
+2023-05-23T14:34:35.215-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 61931 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T14:34:35.216-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T14:34:35.216-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T14:34:41.151-0700 INFO Started SuppliersControllerTest in 6.372 seconds (JVM running for 10.367)
+2023-05-23T15:10:47.578-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 63867 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:10:47.578-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:10:47.579-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:10:54.036-0700 INFO Started SuppliersControllerTest in 6.839 seconds (JVM running for 9.263)
+2023-05-23T15:16:04.565-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 1738 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:16:04.568-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:16:04.569-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:16:10.589-0700 INFO Started SuppliersControllerTest in 6.498 seconds (JVM running for 8.959)
+2023-05-23T15:20:40.068-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 2005 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:20:40.068-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:20:40.069-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:20:46.799-0700 INFO Started SuppliersControllerTest in 7.171 seconds (JVM running for 9.441)
+2023-05-23T15:26:38.631-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 2469 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:26:38.633-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:26:38.635-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:26:43.847-0700 INFO Started DemoApplication in 5.893 seconds (JVM running for 6.836)
+2023-05-23T15:27:54.652-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 2558 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:27:54.653-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:27:54.653-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:28:00.504-0700 INFO Started SuppliersControllerTest in 6.2 seconds (JVM running for 8.369)
+2023-05-23T15:28:31.519-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 2595 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:28:31.519-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:28:31.519-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:28:37.323-0700 INFO Started SuppliersControllerTest in 6.155 seconds (JVM running for 8.343)
+2023-05-23T15:39:12.480-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 3147 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:39:12.481-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:39:12.481-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:39:18.287-0700 INFO Started SuppliersControllerTest in 6.166 seconds (JVM running for 8.363)
+2023-05-23T15:41:23.884-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 3264 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:41:23.885-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:41:23.885-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:41:30.255-0700 INFO Started SuppliersControllerTest in 6.757 seconds (JVM running for 8.915)
+2023-05-23T15:41:53.681-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 3293 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:41:53.682-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:41:53.683-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:41:59.516-0700 INFO Started SuppliersControllerTest in 6.208 seconds (JVM running for 8.323)
+2023-05-23T15:42:44.077-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 3340 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:42:44.078-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:42:44.078-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:42:50.037-0700 INFO Started SuppliersControllerTest in 6.324 seconds (JVM running for 8.494)
+2023-05-23T15:43:11.840-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 3368 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:43:11.841-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:43:11.841-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:43:17.608-0700 INFO Started SuppliersControllerTest in 6.135 seconds (JVM running for 8.289)
+2023-05-23T15:44:06.101-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 3431 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T15:44:06.103-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T15:44:06.104-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T15:44:14.039-0700 INFO Started SuppliersControllerTest in 8.415 seconds (JVM running for 10.741)
+2023-05-23T16:52:19.024-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 5720 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T16:52:19.025-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T16:52:19.025-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T16:52:25.150-0700 INFO Started SuppliersControllerTest in 6.521 seconds (JVM running for 8.762)
+2023-05-23T17:09:15.120-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 6628 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-23T17:09:15.120-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-23T17:09:15.121-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-23T17:09:21.799-0700 INFO Started SuppliersControllerTest in 7.209 seconds (JVM running for 9.88)
+2023-05-24T12:34:55.441-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 35862 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-24T12:34:55.445-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-24T12:34:55.447-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-24T12:36:02.453-0700 INFO Starting SuppliersControllerTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 3424 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-24T12:36:02.454-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-24T12:36:02.455-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-24T12:36:11.786-0700 INFO Started SuppliersControllerTest in 9.82 seconds (JVM running for 29564.561)
+2023-05-24T12:36:12.134-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=localhost
+2023-05-24T12:36:12.153-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T12:36:27.740-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 35995 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-24T12:36:27.742-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-24T12:36:27.743-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-24T12:36:33.537-0700 INFO Started DemoApplication in 6.419 seconds (JVM running for 7.484)
+2023-05-24T12:36:57.767-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T12:36:57.799-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T12:38:41.734-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T12:38:41.978-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=application/json
+2023-05-24T14:47:59.155-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 41829 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-24T14:47:59.158-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-24T14:47:59.160-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-24T14:48:05.319-0700 INFO Started DemoApplication in 6.737 seconds (JVM running for 7.632)
+2023-05-24T14:48:26.551-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T14:48:26.553-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T14:48:26.554-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/suppliers/111
+2023-05-24T14:48:26.554-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T14:48:26.554-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T14:48:26.554-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T14:48:26.555-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T14:49:41.214-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 41955 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-24T14:49:41.216-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-24T14:49:41.217-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-24T14:49:47.194-0700 INFO Started DemoApplication in 6.523 seconds (JVM running for 7.354)
+2023-05-24T14:50:10.460-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T14:50:10.460-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T14:50:10.460-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/suppliers/1
+2023-05-24T14:50:10.460-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T14:50:10.460-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T14:50:10.460-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T14:50:10.460-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T14:54:14.211-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T14:54:14.217-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T14:54:14.220-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/suppliers/2
+2023-05-24T14:54:14.221-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T14:54:14.221-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T14:54:14.221-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T14:54:14.221-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T18:46:56.346-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 57631 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-24T18:46:56.351-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-24T18:46:56.353-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-24T18:47:01.349-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-05-24T18:47:02.359-0700 INFO Started DemoApplication in 6.516 seconds (JVM running for 7.561)
+2023-05-24T19:05:50.654-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:05:50.655-0700 INFO =====, within authorization(...), incomingUri = /project2023/auth
+2023-05-24T19:05:50.655-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:05:50.655-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/auth
+2023-05-24T19:05:50.655-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:05:50.655-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:05:50.655-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:05:50.655-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:06:06.620-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:06:06.625-0700 INFO =====, within authorization(...), incomingUri = /project2023/suppliers/2
+2023-05-24T19:06:06.625-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:06:06.625-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/suppliers/2
+2023-05-24T19:06:06.625-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:06:06.626-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:06:06.626-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:06:06.626-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:06:20.338-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:06:20.340-0700 INFO =====, within authorization(...), incomingUri = /project2023/suppliers
+2023-05-24T19:06:20.347-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:06:20.349-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/suppliers
+2023-05-24T19:06:20.349-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:06:20.349-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:06:20.349-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:06:20.349-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:06:33.911-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:06:33.915-0700 INFO =====, within authorization(...), incomingUri = /project2023/suppliers/2
+2023-05-24T19:06:33.916-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:06:33.916-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/suppliers/2
+2023-05-24T19:06:33.917-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:06:33.917-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:06:33.917-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:06:33.917-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:06:53.075-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:06:53.077-0700 INFO =====, within authorization(...), incomingUri = /project2023/suppliers
+2023-05-24T19:06:53.078-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:06:53.078-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/suppliers
+2023-05-24T19:06:53.078-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:06:53.078-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:06:53.078-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:06:53.079-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:10:16.878-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:10:16.884-0700 INFO =====, within authorization(...), incomingUri = /project2023/auth
+2023-05-24T19:10:16.884-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:10:16.885-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/auth
+2023-05-24T19:10:16.885-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:10:16.885-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:10:16.885-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:10:16.885-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:10:54.896-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:10:54.901-0700 INFO =====, within authorization(...), incomingUri = /project2023/auth
+2023-05-24T19:10:54.901-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:10:54.901-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/auth
+2023-05-24T19:10:54.901-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:10:54.902-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:10:54.902-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:10:54.902-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:11:07.887-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:11:07.890-0700 INFO =====, within authorization(...), incomingUri = /project2023/auth
+2023-05-24T19:11:07.891-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:11:07.891-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/auth
+2023-05-24T19:11:07.891-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:11:07.891-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:11:07.891-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:11:07.892-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:11:17.877-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:11:17.884-0700 INFO =====, within authorization(...), incomingUri = /project2023/auth
+2023-05-24T19:11:17.884-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:11:17.884-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/auth
+2023-05-24T19:11:17.884-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:11:17.884-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:11:17.885-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:11:17.885-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:11:29.452-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:11:29.455-0700 INFO =====, within authorization(...), incomingUri = /auth
+2023-05-24T19:11:29.455-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:11:29.455-0700 INFO 222222 pre action from MySecondFilter, requestURI = /auth
+2023-05-24T19:11:29.456-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:11:29.456-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:11:29.456-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:11:29.456-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T19:12:08.848-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:12:08.856-0700 INFO =====, within authorization(...), incomingUri = /project2023/suppliers
+2023-05-24T19:12:08.856-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T19:12:08.857-0700 INFO 222222 pre action from MySecondFilter, requestURI = /project2023/suppliers
+2023-05-24T19:12:08.857-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T19:12:08.857-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T19:12:08.857-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T19:12:08.857-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:12:17.075-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:17.078-0700 INFO =====, within authorization(...), incomingUri = /
+2023-05-24T23:12:17.078-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:17.078-0700 INFO 222222 pre action from MySecondFilter, requestURI = /
+2023-05-24T23:12:17.078-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:12:17.079-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:12:17.079-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:12:17.079-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:12:17.114-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:17.116-0700 INFO =====, within authorization(...), incomingUri = /favicon.ico
+2023-05-24T23:12:17.116-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:17.116-0700 INFO 222222 pre action from MySecondFilter, requestURI = /favicon.ico
+2023-05-24T23:12:17.116-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:12:17.116-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:12:17.116-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:12:17.116-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:12:43.815-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:43.832-0700 INFO =====, within authorization(...), incomingUri = /
+2023-05-24T23:12:43.832-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:43.832-0700 INFO 222222 pre action from MySecondFilter, requestURI = /
+2023-05-24T23:12:43.832-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:12:43.832-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:12:43.832-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:12:43.833-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:12:43.860-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:43.863-0700 INFO =====, within authorization(...), incomingUri = /favicon.ico
+2023-05-24T23:12:43.863-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:43.863-0700 INFO 222222 pre action from MySecondFilter, requestURI = /favicon.ico
+2023-05-24T23:12:43.863-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:12:43.863-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:12:43.863-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:12:43.863-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:12:54.323-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:54.325-0700 INFO =====, within authorization(...), incomingUri = /
+2023-05-24T23:12:54.325-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:54.325-0700 INFO 222222 pre action from MySecondFilter, requestURI = /
+2023-05-24T23:12:54.326-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:12:54.326-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:12:54.326-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:12:54.326-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:12:54.350-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:54.351-0700 INFO =====, within authorization(...), incomingUri = /favicon.ico
+2023-05-24T23:12:54.351-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:12:54.351-0700 INFO 222222 pre action from MySecondFilter, requestURI = /favicon.ico
+2023-05-24T23:12:54.351-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:12:54.352-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:12:54.353-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:12:54.354-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:19:51.253-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:19:51.260-0700 INFO =====, within authorization(...), incomingUri = /
+2023-05-24T23:19:51.260-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:19:51.260-0700 INFO 222222 pre action from MySecondFilter, requestURI = /
+2023-05-24T23:19:51.260-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:19:51.260-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:19:51.261-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:19:51.262-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:19:51.292-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:19:51.298-0700 INFO =====, within authorization(...), incomingUri = /favicon.ico
+2023-05-24T23:19:51.298-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:19:51.299-0700 INFO 222222 pre action from MySecondFilter, requestURI = /favicon.ico
+2023-05-24T23:19:51.299-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:19:51.299-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:19:51.299-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:19:51.299-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:19:52.446-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:19:52.447-0700 INFO =====, within authorization(...), incomingUri = /
+2023-05-24T23:19:52.447-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:19:52.447-0700 INFO 222222 pre action from MySecondFilter, requestURI = /
+2023-05-24T23:19:52.447-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:19:52.447-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:19:52.447-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:19:52.447-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-24T23:19:52.472-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:19:52.473-0700 INFO =====, within authorization(...), incomingUri = /favicon.ico
+2023-05-24T23:19:52.473-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-24T23:19:52.473-0700 INFO 222222 pre action from MySecondFilter, requestURI = /favicon.ico
+2023-05-24T23:19:52.474-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-24T23:19:52.474-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-24T23:19:52.474-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-24T23:19:52.474-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-27T12:31:43.145-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 43304 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-27T12:31:43.147-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-27T12:31:43.150-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-27T12:31:48.369-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-05-27T12:33:03.570-0700 INFO Starting DemoApplication using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 43435 (/Users/jingrong/Downloads/demo/target/classes started by jingrong in /Users/jingrong/Downloads/demo)
+2023-05-27T12:33:03.572-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-05-27T12:33:03.573-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-27T12:33:08.860-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-05-27T12:33:09.970-0700 INFO Started DemoApplication in 7.039 seconds (JVM running for 8.096)
+2023-05-27T12:38:49.077-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-27T12:38:49.078-0700 INFO =====, within authorization(...), incomingUri = /auth
+2023-05-27T12:38:49.078-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-27T12:38:49.078-0700 INFO 222222 pre action from MySecondFilter, requestURI = /auth
+2023-05-27T12:38:49.078-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-27T12:38:49.078-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-27T12:38:49.078-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-27T12:38:49.078-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-05-27T12:38:55.400-0700 INFO =======, HelloWorldFilter preprocessing before moving forward, getRemoteHost=0:0:0:0:0:0:0:1
+2023-05-27T12:38:55.408-0700 INFO =====, within authorization(...), incomingUri = /auth
+2023-05-27T12:38:55.408-0700 INFO 222222 pre action from MySecondFilter, remoteHost=0:0:0:0:0:0:0:1
+2023-05-27T12:38:55.409-0700 INFO 222222 pre action from MySecondFilter, requestURI = /auth
+2023-05-27T12:38:55.409-0700 INFO 222222 pre action from MySecondFilter, Header = null
+2023-05-27T12:38:55.409-0700 INFO 22222 post action from MySecondFilter, status = 200
+2023-05-27T12:38:55.409-0700 INFO 22222 post action from MySecondFilter, Headernames = []
+2023-05-27T12:38:55.411-0700 INFO ====, HelloFilter postprocessing before return back to caller, getRemoteHost=null
+2023-06-17T12:27:20.183-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 23618 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:27:20.184-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:27:20.188-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:30.176-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:30.176-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:30.176-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:31.971-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [login_name] in table [users]
+2023-06-17T12:31:31.982-0700 INFO Connecting to database...
+2023-06-17T12:31:32.003-0700 DEBUG Creating statement...
+2023-06-17T12:31:32.156-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:32.156-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:32.157-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:33.193-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:31:33.235-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:33.235-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:33.236-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:33.737-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:31:33.771-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:33.772-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:33.772-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:34.155-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:31:34.185-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:34.185-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:34.185-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:34.585-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:31:34.625-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:34.625-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:34.625-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:35.194-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:31:35.239-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:35.239-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:35.239-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:35.527-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:35.527-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:35.527-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:35.862-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:35.862-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:35.862-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:36.197-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:36.197-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:36.197-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:31:36.683-0700 INFO Starting DemoApplicationTests using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 23968 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:31:36.684-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:31:36.684-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:32:11.051-0700 INFO Connecting to database...
+2023-06-17T12:32:11.378-0700 DEBUG Creating statement...
+2023-06-17T12:35:16.899-0700 ERROR Exception while initializing hibernate util..., error=Schema-validation: missing column [login_name] in table [users]
+2023-06-17T12:36:00.359-0700 INFO Starting SuppliersTest using Java 17.0.6 on jingrongs-Air.attlocal.net with PID 24244 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:00.360-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:00.362-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:32.087-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:32.088-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:32.088-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:33.579-0700 INFO Connecting to database...
+2023-06-17T12:36:33.614-0700 DEBUG Creating statement...
+2023-06-17T12:36:33.749-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:33.749-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:33.749-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:34.573-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:36:34.603-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:34.603-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:34.603-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:35.050-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:36:35.079-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:35.079-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:35.079-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:35.447-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:36:35.478-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:35.478-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:35.479-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:35.926-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:36:35.958-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:35.958-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:35.958-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:36.303-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:36:36.377-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:36.378-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:36.378-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:36.780-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:36.780-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:36.780-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:37.073-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:37.073-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:37.073-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:37.306-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:37.306-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:37.306-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:36:37.576-0700 INFO Starting DemoApplicationTests using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24290 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:36:37.577-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:36:37.577-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:47.493-0700 INFO Starting SuppliersDaoSpringDataJPATest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:47.493-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:47.494-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:48.992-0700 INFO Connecting to database...
+2023-06-17T12:38:49.014-0700 DEBUG Creating statement...
+2023-06-17T12:38:49.158-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:49.158-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:49.158-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:49.960-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:38:49.991-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:49.991-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:49.991-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:50.397-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:38:50.433-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:50.433-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:50.433-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:50.885-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:38:50.936-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:50.936-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:50.937-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:51.403-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:38:51.437-0700 INFO Starting SuppliersControllerTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:51.438-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:51.438-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:51.785-0700 DEBUG Filter 'jwtFilter' configured for use
+2023-06-17T12:38:51.817-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:51.817-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:51.817-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:52.090-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:52.090-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:52.090-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:52.333-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:52.333-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:52.333-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:52.589-0700 INFO Starting SuppliersTest using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:52.589-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:52.589-0700 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-17T12:38:52.836-0700 INFO Starting DemoApplicationTests using Java 20.0.1 on jingrongs-Air.attlocal.net with PID 24443 (started by jingrong in /Users/jingrong/Downloads/demo)
+2023-06-17T12:38:52.836-0700 DEBUG Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-06-17T12:38:52.836-0700 INFO No active profile set, falling back to 1 default profile: "default"

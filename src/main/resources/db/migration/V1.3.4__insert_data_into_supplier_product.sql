@@ -1,0 +1,8 @@
+--INSERT INTO supplier_product
+--(supplier_id, product_id) VALUES
+--(1, 101),
+--(1, 102),
+--(2, 101),
+--(2, 103)
+--;
+--commit;
